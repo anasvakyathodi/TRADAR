@@ -3,6 +3,8 @@
 
 TRADAR is a webapp created to provide features that helps Share Market Traders/Investors in their Journey
 
+![Tradar](./Tradar_Logo.jpg)
+
 Visit: [https://tradar.netlify.app/](https://tradar.netlify.app/)
 
 
@@ -11,11 +13,11 @@ Visit: [https://tradar.netlify.app/](https://tradar.netlify.app/)
 - Target & Stoploss Calculation
 - Profit Calculation
 
-  
+
 ## Tech Stack
 
 React, TailwindCSS, Webpack
-  
+
 ## Screenshots
 
 <img width="960" alt="Screenshot 2021-10-11 203808" src="https://user-images.githubusercontent.com/44634141/136815211-0e7f27d6-fe1e-4184-9763-e01c9498442e.png">
@@ -55,7 +57,7 @@ Start the server
   npm run start
 ```
 
-  
+
 ## Deployment
 
 To deploy this project run
@@ -64,14 +66,12 @@ To deploy this project run
   npm run build
 ```
 
-  
+
 ## Authors
 
 - [@anasvakyathodi](https://www.github.com/anasvakyathodi)
 
-  
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-  
