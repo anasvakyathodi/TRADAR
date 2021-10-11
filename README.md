@@ -70,7 +70,7 @@ To deploy this project run
 ## Authors
 
 - [@anasvakyathodi](https://www.github.com/anasvakyathodi)
-
+- [@salibc](https://github.com/salilbc)
 
 ## License
 
