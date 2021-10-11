@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Input from "./../Input";
+import DarkModeButton from "../DarkModeButton";
 
-const AnnualProfit = () => {
+const AnnualProfit = ({ darkMode, setDarkMode }) => {
   const [data, setData] = useState({
     cash: "",
     percentage: "",
@@ -43,7 +44,8 @@ const AnnualProfit = () => {
   }, [data.cash, data.percentage, data.type]);
 
   return (
-    <div className="flex flex-col h-screen bg-gray-100">
+    <div className="flex flex-col h-screen bg-gray-100 dark:bg-gray-800">
+      <DarkModeButton darkmode={darkMode} setDarkMode={setDarkMode} />
       <div className="grid place-items-center mx-2 my-20 sm:my-auto">
         <div
           className="w-11/12 p-12 sm:w-8/12 md:w-6/12 lg:w-5/12 2xl:w-4/12 

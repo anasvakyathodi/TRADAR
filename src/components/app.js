@@ -6,11 +6,27 @@ import Home from "./Pages/Home";
 import AnnualProfit from "./Pages/AnnualProfit";
 
 const App = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    if (darkMode) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [darkMode]);
+
   return (
     <Switch>
-      <Route path="/annual" component={AnnualProfit} />
-      <Route path="/intra" component={TargetCalc} />
-      <Route path="/" exact component={Home} />
+      <Route path="/annual">
+        <AnnualProfit darkMode={darkMode} setDarkMode={setDarkMode} />
+      </Route>
+      <Route path="/intra">
+        <TargetCalc darkMode={darkMode} setDarkMode={setDarkMode} />
+      </Route>
+      <Route path="/" exact>
+        <Home darkMode={darkMode} setDarkMode={setDarkMode} />
+      </Route>
     </Switch>
   );
 };
