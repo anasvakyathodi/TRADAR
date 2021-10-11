@@ -3,7 +3,7 @@
 
 TRADAR is a WebApp for Stock Market Traders/Investors providing features that will make their journey more easy.
 ## 1. Fork the Repo and clone
-Clone this repo into your local machine by using git package
+Fork this repo into your repos and Clone the repo into your local machine by using git package
 ```bash
 git clone https://github.com/<your-git-id>/TRADAR
 ```
