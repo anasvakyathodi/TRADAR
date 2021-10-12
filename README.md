@@ -71,6 +71,11 @@ To deploy this project run
 
 - [@anasvakyathodi](https://www.github.com/anasvakyathodi)
 - [@salibc](https://github.com/salilbc)
+- [@NicolasBiondini](https://github.com/NicolasBiondini)
+- [@pedaars](https://github.com/pedaars)
+- [@salilbc](https://github.com/salilbc)
+- [@shub78910](https://github.com/shub78910)
+- [@vedantvijay](https://github.com/vedantvijay)
 
 ## License
 
