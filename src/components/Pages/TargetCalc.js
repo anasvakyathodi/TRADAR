@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Input from "./../Input";
 import DarkModeButton from "../DarkModeButton";
+import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom";
 
 const TargetCalc = ({ darkMode, setDarkMode }) => {
   const [data, setData] = useState({
@@ -31,6 +33,9 @@ const TargetCalc = ({ darkMode, setDarkMode }) => {
             px-6 py-10 sm:px-10 sm:py-6 
             bg-white rounded-lg shadow-md lg:shadow-lg"
         >
+          <Link to="/">
+            <Icon icon="typcn:arrow-back" width="40" height="40" />
+          </Link>
           <h2 className="text-center font-semibold text-3xl lg:text-4xl text-gray-800">
             Find T/SL
           </h2>
